@@ -17,14 +17,13 @@ import java.util.List;
 public class ProductController {
 
     private List<Product> products = new ArrayList<>(Arrays.asList(
-            new Product(1, "Antrax", 100),
-            new Product(20, "Fiebre", 200),
-            new Product(23, "Nauseas", 300),
-            new Product(4, "product4", 400),
-            new Product(5, "product5", 781)
+            new Product(1, "Antrax", 
+            "El ántrax (o carbunco) es una enfermedad infecciosa grave causada por una bacteria grampositiva y baciliforme conocida como Bacillus anthracis. El ántrax puede encontrarse naturalmente en la tierra y afecta comúnmente a mascotas y animales salvajes en todo el mundo. Aunque no es lo habitual, las personas pueden contraer el ántrax si están en contacto con animales infectados o productos de origen animal contaminados."))
+         
+            
 
 
-    ));
+    );
 
     @GetMapping
     public ResponseEntity<List<Product>> getAll() {

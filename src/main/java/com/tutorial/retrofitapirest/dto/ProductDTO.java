@@ -11,5 +11,5 @@ import lombok.NoArgsConstructor;
 @Builder
 public class ProductDTO {
     private String name;
-    private int price;
+    private String price;
 }
