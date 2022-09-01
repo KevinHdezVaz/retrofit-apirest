@@ -17,9 +17,9 @@ import java.util.List;
 public class ProductController {
 
     private List<Product> products = new ArrayList<>(Arrays.asList(
-            new Product(1, "product1", 100),
-            new Product(20, "product2", 200),
-            new Product(23, "product3", 300),
+            new Product(1, "Antrax", 100),
+            new Product(20, "Fiebre", 200),
+            new Product(23, "Nauseas", 300),
             new Product(4, "product4", 400),
             new Product(5, "product5", 781)
 
